@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img, picture {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    padding: 5% 5%;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+}
+ 
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-item {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.card img {
+    width: 40px;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.comment {
+    margin-bottom: 25px;
+}
+
+.button {
+    margin-bottom: 40px;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif; 
+}
+
+#card1-container {
+    background-color: #e38826;
+}
+
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    color: #f2f2f2;
+}
+
+.comment {
+    font-size: 13px;
+    color: #ffffff;
+    opacity: 0.75;
+}
+
+.button button {
+    background-color: #f2f2f2;
+    border-style: none;
+    border-radius: 25px;
+    width: 130px;
+    height: 40px;
+}
+
+#button1-container button {
+    color: #e38826;
+}
+
+
+#card2-container {
+    background-color: #006970;
+}
+
+#button2-container button {
+    color: #006970;
+}
+
+#card3-container {
+    background-color: #004241;
+}
+
+#button3-container button {
+    color: #004241;
+}
+
+@media (min-width: 576px) {
+    #main-container {
+        flex-direction: row;
+        max-width: 1440px;
+    }
+}
+
+
